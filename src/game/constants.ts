@@ -1,0 +1,16 @@
+export const HAND_SIZE = 5;
+export const SLOT_COUNT = 3;
+export const START_POOL_MIN = 1;
+export const START_POOL_MAX = 10;
+export const TARGET_MIN = 20;
+export const TARGET_MAX = 150;
+export const SIM_CARDS_MIN = 4; // cards played in one target simulation
+export const SIM_CARDS_MAX = 6;
+export const TARGET_TRIES_PER_SHUFFLE = 500;
+export const MAX_RESHUFFLES = 20; // after this, round creation fails (bad custom deck)
+export const ADD_REMOVE_MIN = 1;
+export const ADD_REMOVE_MAX = 9;
+export const MULTIPLY_MIN = 2;
+export const MULTIPLY_MAX = 4;
+export const DECK_MIN_SIZE = 5; // editor validation
+export const DECK_MAX_SIZE = 30;
